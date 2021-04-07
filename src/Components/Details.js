@@ -261,7 +261,7 @@ this.setState({items:items, subTotal:total})
                     <button className="button mr-3" onClick={()=>this.handleclick('gallerymodalIsOpen', true)}>Image Gallery</button>
                 
                 <div className="heading">{restaurant.name}</div>
-                <button className="btn-order" style={{marginRight:'50px'}} onClick={()=>this.handleclick('isonlineorderopen', true)}>Place Online Order</button>
+                <button className="btn-order mr-3"  onClick={()=>this.handleclick('isonlineorderopen', true)}>Place Online Order</button>
 </div>
                 <div className="tabs">
                     <div className="tab">
