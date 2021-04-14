@@ -299,7 +299,7 @@ console.log(responses);
             <div style={{display:'inline-block',float:'right'}} className="account mr-3 ml-3 rounded btn-outline-success">
                 <div onClick={()=>this.logout('isUserLoggedIn',false)}>logout</div>
             </div>
-            <div style={{display:'inline-block',float:'right'}} className="login pt-2" >{`Welcome ${item.firstname} ${item.lastname}`}</div>
+            <div style={{display:'inline-block',float:'right'}} className="login pt-2" >{`${item.firstname} ${item.lastname}`}</div>
     
         </div>
             
@@ -311,7 +311,7 @@ console.log(responses);
             <div style={{display:'inline-block',float:'right'}} className="account mr-3 ml-3 rounded btn-outline-success">
                 <div onClick={()=>this.logout('isgoogleUserLoggedIn',false)}>logout</div>
             </div>
-            <div style={{display:'inline-block',float:'right'}} className="login pt-2" >{`Welcome ${gusername}`}</div>
+            <div style={{display:'inline-block',float:'right'}} className="login pt-2" >{`${gusername}`}</div>
     
         </div>
     
